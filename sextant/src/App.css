@@ -1,38 +1,65 @@
+/* App.css */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f7f9;
+  color: #002933;
 }
 
-.App-link {
-  color: #61dafb;
+/* banner.css */
+
+.Banner {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  color: #002933;
+  background-color: #80e5ff;
+  border: 2px solid #005266;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* exhibit.css */
+
+.Exhibit {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #002933;
+  background-color: #c7edff;
+  border: 2px solid #005266;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ExhibitContent {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #004d66;
+  background-color: #e5f5fc;
+  padding: 10px;
+  border: 2px solid #66a3d2;
+  border-radius: 8px;
+}
+
+/* address.css */
+
+.addrDisplay {
+  font-size: 1.3em;
+  color: #004d66;
+  background-color: #e5f5fc;
+  padding: 10px;
+  border: 2px solid #66a3d2;
+  border-radius: 8px;
 }
